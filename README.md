@@ -124,11 +124,11 @@ Let's add 2 more arguments in the constructor (alongside the parent argument)
 
 Something else is bugging me. The `id` which is given to each robot, is hidden.
 
-5. Refactor the code so that the `id` which is being generated as a class property.
+5. Rewrite the code so that the `id` is being generated as a class property.
 
 > Hint: Set `this.id` in the constructor
 
-6. Refactor the code so that the `render` method uses the class property `id` instead of calling the static method `generateId`
+6. Rewrite the code so that the `render` method uses the class property `id` instead of calling the static method `generateId`
     
 Now we can access the id of each robot via the `id` property. For example, if you instantiated the class into a variable called `robot`, we can use `robot.id` to access the id of the robot.
 
